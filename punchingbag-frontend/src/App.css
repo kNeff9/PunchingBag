@@ -101,6 +101,14 @@ body {
 
 }
 
+.bag-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
 /* center the second column content (Bag) */
 .container > div:nth-child(2) {
   display: flex;
@@ -117,7 +125,9 @@ body {
 
 .chatwindow {
   /* Make the chat window a left column with a fixed width so it contains AIResponse */
-  padding: 12px;
+  /* padding: 12px; */
+  padding-right: 150px;
+  padding-top: 200px;
   height: auto;
   width: 100%;
   box-sizing: border-box;
