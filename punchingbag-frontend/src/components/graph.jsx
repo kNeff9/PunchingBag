@@ -58,7 +58,7 @@ function StressTracker() {
 
 			{/* Input block below bars */}
 			<div style={{textAlign: 'center'}}>
-				<div className="graph-question" style={{marginBottom: 8, fontSize: 32, fontWeight: 700, fontFamily: "fantasy"}}>How stressed are you?</div>
+				<div className="graph-question" style={{marginBottom: 8, fontSize: 32, fontWeight: 700}}>How stressed are you?</div>
 				<div style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start', maxWidth: 320, margin: '0 0 8px 0'}}>
 					<span className="graph-emoji-left" role="img" aria-label="smile" style={{fontSize: 32, marginRight: 8}}>😊</span>
 					<div className="graph-rating-row graph-rating-row-wide" style={{flex: 1}}>
